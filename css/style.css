@@ -1,0 +1,72 @@
+/* fonts links */
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: playfairDisplay-regular;
+    src: url(../fonts/Playfair_Display/playfairDisplay-regular.ttf);
+}
+@font-face {
+    font-family: ;
+    src: url(../fonts/Ubuntu/ubuntu-light.ttf);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: playfairDisplay-regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 15px;
+}
+.text{
+    margin-bottom: 40px;
+}
+.container{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* border: 1px solid black */
+}
+.content{
+    /* border: 1px solid black; */
+}
+.item{
+    float: left;
+    width: 23%;
+    height: 280px;
+    box-sizing: border-box;
+    margin-right: 2%;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+.item:nth-child(even){
+    background-color: #FFC55A;
+}
+.item:nth-child(odd){
+    background-color: #384B70;
+    color: white;
+}
+.item:last-child{
+  float: right;
+  margin-right: 0px;
+}
+.icon{
+    font-size: 100px;
+}
+
+.bi-airplane-fill{
+    color: lightcoral;
+}
+.bi-apple{
+    color: green;
+}
+.bi-alarm-fill{
+    color: coral;
+}
+.bi-house-add-fill{
+    color: blueviolet;
+}
